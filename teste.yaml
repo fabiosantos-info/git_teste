@@ -1,17 +1,1 @@
-pipe2 :
-  grupo : grupo1
-  label_template : " foo-1.0 - $ {COUNT} "
-  bloqueio : em
-  tracking_tool :
-    link : " http: // your-trackingtool / yourproject / $ {ID} "
-    regex : " evo- ( \\ d +) "
-  Temporizador :
-    especificação : " 0 15 10 * *? * "
-    only_on_changes : sim
-  environment_variables : null
-  materiais :
-    foo :
-    barra :
-  estágios :
-    - nulo
-    - nulo
+
